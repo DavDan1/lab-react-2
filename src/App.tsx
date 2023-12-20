@@ -1,9 +1,13 @@
 import "./App.css";
 
+const greeting = "Hello, Davit!";
+
 function App() {
+
+
   return (
     <>
-      <h1>Hello, Davit!</h1>
+      <h1>{greeting}</h1>
     </>
   );
 }
